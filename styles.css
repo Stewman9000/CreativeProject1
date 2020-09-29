@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 56px;
+  padding-bottom: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #F8F9FA;
+  /*#F8F9FA;*/
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*Main Page CSS*/
+/* Mobile Styles */
+/* Mobile Styles */
+.full-width-center {
+  position: absolute;
+  left: 50%;
+  margin-left: -15px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+.main-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(#FFAF00, #F8F9FA);
+}
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  align-self: center;
+}
+
+.main-title {
+  font-size: 80px;
+  font-size: 15.0vw;
+}
+
+.main-subtitle {
+  font-size: 30px;
+  color: #343436;
+}
+
+.screenshot {
+  height: 600px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #F8F9FA;
+}
+
+/*About Styles*/
+/*About Styles*/
+/*About Styles*/
+.about-personal-photo {
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.quote {
+  font-size: 50px;
+}
+
+.hyperlink-color {
+  color: inherit;
+}
+
+/* Mobile Styles */
+/* Mobile Styles */
+/* Mobile Styles */
+@media only screen and (max-width: 575px) {
+  .mobile-text-center {
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+/* Tablet Styles */
+/* Tablet Styles */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .main-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .main-title {
+    font-size: 10.0vw;
+  }
+
+  .mobile-text-center {
+    text-align: center;
+  }
+
+  .screenshot {
+    height: 550px;
+  }
+
+  .quote {
+    font-size: 35px;
+  }
+}
+
+/* Desktop Styles */
+/* Desktop Styles */
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+  .main-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .main-title {
+    font-size: 90px;
+    font-size: 6.5vw;
+  }
+
+  .text-main {
+    margin-right: 25px;
+  }
+
+  .screenshot {
+    max-width: none;
+    height: 650px;
+  }
+
+  .quote {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../styles.css">
+	<title>Contact Us</title>
+</head>
+
+<body>
+	<div class="container-fluid  main-container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="d-flex w-100 order-0">
+
+				<div class="w-100">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div class="row justify-content-center align-self-center">
+					<a href="../index.html">
+						<img style="border-radius: 5px" src="../pictures/logo.png" width="30" height="30">
+					</a>
+				</div>
+				<span class="w-100 d-lg-none"></span>
+			</div>
+
+
+			<div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarNav">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallary.html">Gallary</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+		<div class="container">
+			<!--Section: Contact v.2-->
+			<section class="mb-4">
+
+				<!--Section heading-->
+				<h1 class="h1-responsive text-center">Contact us</h1>
+				<!--Section description-->
+				<p class="text-center w-responsive mx-auto mb-5 lead">Do you have any questions?
+					We'd love to help out. Send us a message and we'll get back to you as soon
+					as possible.</p>
+
+				<div class="row justify-content-center">
+
+					<!--Grid column-->
+					<div class="col-md-8 mb-md-0 mb-5 lead">
+						<form id="contact-form" name="contact-form">
+
+							<!--Grid row-->
+							<div class="row">
+								<!--Grid column-->
+								<div class="col-md-6 mb-4">
+									<div class="md-form mb-0">
+										<label for="name" class="">Name</label>
+										<input class="form-control" type="text" placeholder="Your Name">
+									</div>
+								</div>
+								<!--Grid column-->
+
+								<!--Grid column-->
+								<div class="col-md-6 mb-4">
+									<div class="md-form mb-0">
+										<label for="exampleInputEmail1">Email Address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+									</div>
+								</div>
+								<!--Grid column-->
+
+							</div>
+							<!--Grid row-->
+
+							<!--Grid row-->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form mb-4">
+										<label for="subject" class="">Subject</label>
+										<input class="form-control" type="text">
+									</div>
+								</div>
+							</div>
+							<!--Grid row-->
+
+							<!--Grid row-->
+							<div class="row">
+
+								<!--Grid column-->
+								<div class="col-md-12 mb-4">
+
+									<div class="md-form">
+										<label for="exampleFormControlTextarea1">Message</label>
+										<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+									</div>
+
+								</div>
+
+							</div>
+							<!--Grid row-->
+						</form>
+
+						<div class="text-center text-md-left">
+							<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+						</div>
+						<div class="status"></div>
+					</div>
+					<!--Grid column-->
+					<div class="col-md-4 text-center ">
+						<img src="../pictures/logo.png" class="shadow rounded" width="100vw" alt="">
+					</div>
+				</div>
+
+			</section>
+			<!--Section: Contact v.2-->
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<span class="text-muted">Place sticky footer content here.</span>
+		</div>
+	</footer>
+</body>
+
+</html>
